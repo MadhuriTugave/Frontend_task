@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Full stack</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="h2">
+            <span class="line_left"></span>YOY! It's BOGO<span class="line_right"></span>
+          </h2>
+        <div class="div div3">
+            <div class="card">
+              <div>
+                <div class="div2" >
+                    <div class="outer-circle" >
+                        <div class="inner-circle" onclick="toggleInputDiv('inputDiv')"></div>
+                    </div>
+                    <h4>1 Unit</h4>
+                  <div class="off">
+                    10% Off
+                  </div>
+                </div>
+                <div id="price">standerd price</div>
+            </div>
+            <div class="div2">
+                <div class="div3">
+                 $18.00 USD
+               <span class="span">  $24.00 USD</span>
+                </div>
+             </div>
+            
+            </div>
+            <div class="inputdiv" id="inputDiv" style="display: none;">
+              <div class="heading">
+                <h6>#1</h6>
+                <h6>#2</h6>
+              </div>
+              <div class="div3">
+                <label class="label">Size</label>
+                <input class="inputSize" type="text"  placeholder="S"/>
+                <input class="inputSize" type="text" placeholder="S"/>
+            </div>
+             <div class="div3">
+              <lable>Colour</lable>
+              <input class="inputSize" placeholder="S"/>
+              <input class="inputSize" placeholder="S"/>
+             </div>
+             
+             </div>
+             
+            
+        </div>
+        <div class="div div3">
+            
+               <div class="card ">
+                <div class="div2" >
+                  <div class="outer-circle" id="outer-circle">
+                      <div class="inner-circle" id="inner-circle" onclick="toggleInputDiv('inputDiv2')"></div>
+                  </div>
+                  <h4>2 Unit</h4>
+                <div class="off">
+                  20% Off
+                </div>
+       
+            
+          </div>
+          <div class="div2">
+              <div class="div3">
+               $18.00 USD
+             <span class="span">  $24.00 USD</span>
+              </div>
+           </div>
+               </div>
+               <div class="inputdiv" id="inputDiv2" style="display: none;">
+                <div class="heading">
+                  <h6>#1</h6>
+                  <h6>#2</h6>
+                </div>
+                <div class="div3">
+                  <label class="label">Size</label>
+                  <input class="inputSize" type="text"  placeholder="S"/>
+                  <input class="inputSize" type="text" placeholder="S"/>
+              </div>
+               <div class="div3">
+                <lable>Colour</lable>
+                <input class="inputSize" placeholder="S"/>
+                <input class="inputSize" placeholder="S"/>
+               </div>
+               
+               </div>
+        </div>
+
+
+
+        <div class="div div3">
+           <div class="card">
+            <div class="div2" >
+              <div class="outer-circle" id="outer-circle">
+                  <div class="inner-circle" id="inner-circle" onclick="toggleInputDiv('inputDiv3')"></div>
+              </div>
+              <h4>3 Unit</h4>
+            <div class="off">
+              30% Off
+            </div>
+          </div>
+          <div class="div2">
+              <div class="div3">
+               $24.00 USD
+             <span class="span">  $24.00 USD</span>
+              </div>
+           </div>
+           </div>
+           <div class="inputdiv" id="inputDiv3" style="display: none;">
+            <div class="heading">
+              <h6>#1</h6>
+              <h6>#2</h6>
+            </div>
+            <div class="div3">
+              <label class="label">Size</label>
+              <input class="inputSize" type="text"  placeholder="S"/>
+              <input class="inputSize" type="text" placeholder="S"/>
+          </div>
+           <div class="div3">
+            <lable>Colour</lable>
+            <input class="inputSize" placeholder="S"/>
+            <input class="inputSize" placeholder="S"/>
+           </div>
+           
+           </div>
+
+        </div >
+        <div class="div4">Free delivery
+            <p id="p">Total:$18.00 USD</p>
+        </div>
+       <button><span class="plus">+ </span>   Add to Cart</button>
+    </div>
+</body>
+<<script src="index.js"></script>
+</html>
